@@ -31,7 +31,8 @@ This assignment involves analyzing a dataset of customer purchase information fr
 3. outlook.com (1,664 customers), 
 4. live.com (1,660 customers) &
 5. hotmail.com (1,659 customers).
-One customer uses an email with the domain am.edu:
+
+   One customer uses an email with the domain am.edu:
 Loretta Fletcher (Female, 48 years old, Rehabilitation Counselor)
 - `Store Traffic`: The store receives the most customers on Saturday (4,376 customers), followed by Wednesday (4,365 customers).
 
