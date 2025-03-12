@@ -6,7 +6,7 @@ This assignment involves analyzing a dataset of customer purchase information fr
 
 ## Files
 - `Cust_Purch_FakeData.csv`: The raw customer purchase data file.
-- `Cust_Purch_Data_Assign.ipynb`: Data analysis assignment.
+- `Cust_Purch_Data_Assign.ipynb`: Data analysis file.
 
 ## Methodology
 1. Data Loading: The dataset is loaded into a Pandas DataFrame using pd.read_csv().
