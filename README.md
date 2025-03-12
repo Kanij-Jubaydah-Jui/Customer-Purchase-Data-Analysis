@@ -9,10 +9,10 @@ This assignment involves analyzing a dataset of customer purchase information fr
 - `Cust_Purch_Data_Assign.ipynb`: Data analysis file.
 
 ## Methodology
-1. Data Loading: The dataset is loaded into a Pandas DataFrame using pd.read_csv().
-2. Data Exploration: Basic exploration is performed using methods like .head(), .shape, and .info() to understand the structure of the dataset (e.g., number of rows, columns, and data types).
-3. Data Analysis: Filtering rows based on conditions (e.g., cust[cust['phone'] == '(263) 382-8004']). Using .value_counts() to find the frequency of unique values (e.g., most common customer names or professions). Calculating summary statistics (e.g., max, min, and average spending using .max(), .min(), and .mean()).
-4. Advanced Filtering: Lambda functions are used for advanced filtering (e.g., extracting email domains using apply(lambda x: x.split('@')[1])).
+1. **Data Loading:** The dataset is loaded into a Pandas DataFrame using pd.read_csv().
+2. **Data Exploration:** Basic exploration is performed using methods like .head(), .shape, and .info() to understand the structure of the dataset (e.g., number of rows, columns, and data types).
+3. **Data Analysis:** Filtering rows based on conditions (e.g., cust[cust['phone'] == '(263) 382-8004']). Using .value_counts() to find the frequency of unique values (e.g., most common customer names or professions). Calculating summary statistics (e.g., max, min, and average spending using .max(), .min(), and .mean()).
+4. **Advanced Filtering:** Lambda functions are used for advanced filtering (e.g., extracting email domains using apply(lambda x: x.split('@')[1])).
 
 ## Findings
 - `Dataset Overview`: The dataset contains 30,000 entries and 20 columns. Columns include customer details (e.g., name, email, gender, age), purchase information (e.g., price, credit card details), and metadata (e.g., IP address, favorite color).
